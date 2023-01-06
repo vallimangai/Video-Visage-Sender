@@ -10,6 +10,32 @@ It is a application which sends a photo to people who all present in particular 
 #### Automaticsending: Automate  sending of  photos to the identified people.
 
 #### User-friendly interface: Provide a user-friendly interface for the user to specify the video file, messages or photos, and sending schedule.
+## How to run it?
+#### Clone the repository to your local directory
+
+git clone https://github.com/vallimangai/Video-Visage-Sender
+
+#### Activate your virtual environment. Follow steps in this link to create your virtual environment : Click here
+
+pip install virtualenv
+
+virtualenv env
+
+env\Scripts\activate
+
+#### Install packages from req.txt
+
+pip install -r req.txt
+
+#### Run app.py file
+##### to run a application to allow users to upload their images
+        streamlit run "VideoVisageSender_PhotoUploader.py"
+
+        Now you can see our app running on http://localhost:8501/ ! Register with an account and try it out for yourself.
+##### to send photos
+      python "Send photos.py"
+      
+      Here make sure you are in current directory terminal have the send photos file and video present in it is name as video1.mp4
 
 ## Outputs:
 #### uploading the image 
